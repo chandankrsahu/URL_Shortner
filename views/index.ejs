@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL shortner</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+<h1>URL shortner</h1>
+
+<form action="/shorturl"method="post" class="my-4 form-inline">
+	<label class="sr-only"for="URL">Full URL</label>
+	<input required type="url" class="form-control mr-2 col" name="fURL" placeholder="URL" id="URL">
+	<button class="btn btn-success"type="submit">Shrink</button>
+
+</form>
+
+
+<table class="table table-striped  table-responsive" >
+	<thead>
+		<tr>
+			<th>Full URL</th>
+			<th>Short URL</th>
+			<th>Clicks</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>http://Chanfdan.copm</td>
+			<td>cks123</td>
+			<td>10</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+</body>
+</html>
